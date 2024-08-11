@@ -195,10 +195,10 @@ This example demonstrates how the model can be applied to real-world scenarios b
 
 ### **I. Model Performance**
 
-- **Accuracy**: 97.5%
-- **Precision**: 97.52%
-- **Recall**: 97.5%
-- **F1-Score**: 97.49%
+- **Accuracy**: 98%
+- **Precision**: 98,04385%
+- **Recall**: 98%
+- **F1-Score**: 98.004%
 
 The high accuracy and F1-score indicate that the model performs exceptionally well in classifying disaster-related tweets.
 
