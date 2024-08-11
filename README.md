@@ -1,4 +1,4 @@
-# Disaster Prediction Model using Hugging Face Transformers and NLP Techniques  (Assignment 1)
+# Disaster Prediction Model using Hugging Face Transformers and NLP Techniques (Assignment 1)
 
 ## Project Overview
 
@@ -195,10 +195,10 @@ This example demonstrates how the model can be applied to real-world scenarios b
 
 ### **I. Model Performance**
 
-- **Accuracy**: 98%
-- **Precision**: 98,04385%
-- **Recall**: 98%
-- **F1-Score**: 98.004%
+- **Accuracy**: 97.5%
+- **Precision**: 97.6047619047619%
+- **Recall**: 97.5%
+- **F1-Score**: 97,494504545%
 
 The high accuracy and F1-score indicate that the model performs exceptionally well in classifying disaster-related tweets.
 
@@ -214,4 +214,5 @@ This project successfully demonstrates the application of Hugging Face Transform
 
 - Hugging Face Transformers: [https://huggingface.co/transformers/](https://huggingface.co/transformers/)
 - Kaggle Dataset: [https://www.kaggle.com/datasets/harshithvarma007/disaster-tweets](https://www.kaggle.com/datasets/harshithvarma007/disaster-tweets)
+
 #
