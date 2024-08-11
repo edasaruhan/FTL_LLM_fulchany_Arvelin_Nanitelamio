@@ -186,7 +186,7 @@ new_encodings = tokenizer(new_texts, truncation=True, padding=True, return_tenso
 with torch.no_grad():
     outputs = model(**new_encodings)
     predictions = torch.argmax(outputs.logits, dim=-1)
-    print(predictions.item())  # Outputs the predicted disaster type as an integer
+    print(predictions.item())  # Outputs the predicted disaster type as an integer : 2
 ```
 
 This example demonstrates how the model can be applied to real-world scenarios by analyzing new tweets and classifying them into disaster categories.
