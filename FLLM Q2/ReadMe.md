@@ -13,9 +13,6 @@ This project involves the fine-tuning of a pre-trained BERT model to classify di
 - [Evaluation](#evaluation)
 - [Prediction](#prediction)
 - [Results](#results)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
