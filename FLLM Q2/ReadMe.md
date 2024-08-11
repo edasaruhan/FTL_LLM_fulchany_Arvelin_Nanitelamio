@@ -12,7 +12,6 @@ This project involves the fine-tuning of a pre-trained BERT model to classify di
 - [Model Fine-Tuning](#model-fine-tuning)
 - [Evaluation](#evaluation)
 - [Prediction](#prediction)
-- [Results](#results)
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
@@ -81,15 +80,13 @@ predicted_label = reverse_label_mapping[predicted_class_id]
 print(f"The predicted type of violence is: {predicted_label}")
 ```
 
-## Results
-
 ### Model Performance
 
 The fine-tuned BERT model shows strong performance in classifying violence types in tweets, as indicated by high evaluation metrics.
 
 ### Metrics:
 
-- **Accuracy**: High accuracy in correctly identifying violence types.
+- **Accuracy**:89.75%  High accuracy in correctly identifying violence types.
 - **Confusion Matrix**: Visualization of true vs. predicted labels.
 
 ## Acknowledgements
