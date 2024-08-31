@@ -12,8 +12,10 @@ This project aims to classify text data into five categories using different tex
 4. [Text Embedding Techniques](#text-embedding-techniques)
 5. [Model Training and Evaluation](#model-training-and-evaluation)
 6. [Results](#results)
-7. [Usage](#usage)
-8. [Dependencies](#dependencies)
+7. [Conclusion](#conclusion)
+8. [Usage](#usage)
+9. [Dependencies](#dependencies)
+10. [Dataset Source](#dataset-source)
 
 ## Introduction
 
@@ -77,6 +79,31 @@ The performance of each embedding technique is summarized in the table below:
 | GloVe    | 0.9577   | 0.9587    | 0.9577 | 0.9580   |
 | BERT     | 0.9836   | 0.9840    | 0.9836 | 0.9836   |
 
+
+## Conclusion
+
+In this text classification project, we aimed to classify text samples into five distinct categories using various text embedding techniques. Through a detailed exploration, preprocessing, and evaluation process, we compared the performance of three prominent embedding methods: Word2Vec, GloVe, and BERT.
+
+**Key Findings:**
+
+- **Word2Vec**: Achieved an accuracy of 0.8803 with balanced performance across precision, recall, and F1 score. While it provided a solid baseline, its performance was outshone by more advanced techniques.
+
+- **GloVe**: Demonstrated significant improvement over Word2Vec with an accuracy of 0.9577. Its ability to leverage pre-trained embeddings resulted in enhanced precision, recall, and F1 scores, making it a robust choice for text classification tasks.
+
+- **BERT**: Outperformed both Word2Vec and GloVe, achieving the highest accuracy of 0.9836. BERT’s contextual embeddings proved highly effective in understanding and classifying text with nuanced meanings and complex contexts.
+
+**Implications:**
+
+The results underscore BERT’s superiority in handling text classification tasks due to its deep contextual understanding of language. For applications requiring high accuracy and intricate language comprehension, BERT is the preferred choice. GloVe offers a balance between performance and computational efficiency, while Word2Vec remains useful for simpler tasks or scenarios with limited resources.
+
+**Future Work:**
+
+- **Model Fine-Tuning**: Further tuning and exploring additional hyperparameters could potentially enhance the performance of the models.
+- **Additional Techniques**: Investigating other advanced models or techniques, such as Transformer-based architectures beyond BERT, might provide further improvements.
+- **Application-Specific Adjustments**: Tailoring models to specific domains or types of text could yield more specialized and accurate results.
+
+Overall, this project demonstrates the effectiveness of modern embedding techniques in text classification and highlights the importance of choosing the right model based on specific needs and available resources.
+
 ## Usage
 
 1. **Install Dependencies**:
@@ -108,3 +135,7 @@ python script.py
   - `scikit-learn`
   - `transformers`
   - `torch`
+ 
+## Dataset Source
+
+The dataset used for this project can be accessed [here](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset/data).
