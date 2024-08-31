@@ -299,7 +299,6 @@ predicted_label = reverse_label_mapping[predicted_class_id]
 print(f"The predicted type of violence is: {predicted_label}")
 ```
 
-
 ### Model Performance
 
 The fine-tuned BERT model shows strong performance in classifying violence types in tweets, as indicated by high evaluation metrics.
