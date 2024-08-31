@@ -1,7 +1,3 @@
-To include a Table of Contents (ToC) in your README file, you can add a section at the beginning that links to different parts of the document. This helps users navigate the README more easily. Here’s how you can incorporate a ToC into the README structure:
-
----
-
 # SDG Text Generation Application
 
 ## Table of Contents
