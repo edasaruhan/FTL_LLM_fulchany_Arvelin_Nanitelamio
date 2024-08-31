@@ -16,8 +16,9 @@
 8. [Evaluation](#evaluation)
    - [Evaluation Metrics](#evaluation-metrics)
    - [Sample Results](#sample-results)
-9. [Conclusion](#conclusion)
-10. [Acknowledgments](#acknowledgments)
+9. [User Interface](#user-interface)
+10. [Conclusion](#conclusion)
+11. [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -151,6 +152,11 @@ The models were evaluated based on:
 - **Length OK**: True
 - **Readability Score**: 22.55
 - **Tone Analysis**: Positive
+
+## User Interface 
+<img width="587" alt="Q1_1" src="https://github.com/user-attachments/assets/1fe41d69-1f32-4040-bd4c-2e95e1abc9dd">
+<img width="459" alt="Q1_2" src="https://github.com/user-attachments/assets/c3fe00d9-6fb4-45a4-a484-ed3790453384">
+<img width="380" alt="Q1_3" src="https://github.com/user-attachments/assets/eec6f8b8-08c2-4cd8-a190-3933b17e3421">
 
 ## Conclusion
 
