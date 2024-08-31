@@ -16,8 +16,7 @@
    - [Evaluation Metrics](#evaluation-metrics)
    - [Sample Results](#sample-results)
 8. [Conclusion](#conclusion)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+9. [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -54,18 +53,10 @@ To set up the SDG Text Generation Application:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/sdg-text-generation-app.git
-   cd sdg-text-generation-app
+   git clone https://github.com/edasaruhan/FTL_LLM_fulchany_Arvelin_Nanitelamio.git
    ```
-
-2. **Install Dependencies**:
-   Ensure you have Python 3.8+ installed. Install required packages using:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Application**:
+   
+2. **Run the Application**:
    ```bash
    streamlit run app.py
    ```
@@ -133,10 +124,6 @@ The models were evaluated based on:
 ## Conclusion
 
 GPT-2 was selected for the final implementation due to its superior integration ease, high-quality text generation, and consistent performance across various metrics. Bloom, while capable, was not chosen due to its integration complexity and less consistent results.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
