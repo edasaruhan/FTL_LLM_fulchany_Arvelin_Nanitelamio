@@ -155,7 +155,6 @@ from transformers import AdamW
 
 optimizer = AdamW(model.parameters(), lr=5e-5)
 
-# Implement the training loop here
 ```
 
 The `AdamW` optimizer is used as it’s well-suited for fine-tuning transformer models like BERT.
