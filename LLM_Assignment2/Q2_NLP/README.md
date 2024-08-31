@@ -15,6 +15,7 @@ This project aims to classify text data into five categories using different tex
 7. [Conclusion](#conclusion)
 8. [Usage](#usage)
 9. [Dependencies](#dependencies)
+10. [Dataset Source](#dataset-source)
 
 ## Introduction
 
@@ -134,3 +135,7 @@ python script.py
   - `scikit-learn`
   - `transformers`
   - `torch`
+ 
+## Dataset Source
+
+The dataset used for this project can be accessed [here](https://www.kaggle.com/datasets/sunilthite/text-document-classification-dataset/data).
